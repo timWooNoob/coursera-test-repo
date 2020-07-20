@@ -15,12 +15,27 @@ h1{
 	margin-bottom: 50;
 }
 
-#menuOption{
+.row {
+  width: 100%;
+}
+
+#menuOption1{
 	text-align: center;
 	background-color: magenta;
 	border: 1px solid black;
 	padding: 5px;
-	width: =200px;
+}
+#menuOption2{
+	text-align: center;
+	background-color: red;
+	border: 1px solid black;
+	padding: 5px;
+}
+#menuOption3{
+	text-align: center;
+	background-color: brown;
+	border: 1px solid black;
+	padding: 5px;
 }
 
 .box{
@@ -32,6 +47,7 @@ h1{
 p{
 	margin:10px;
 }
+
 
 
 @media (min-width: 992px) {
