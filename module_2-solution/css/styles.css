@@ -12,34 +12,35 @@ body{
 h1{
 	text-align: center;
 	padding: 30px;
-	margin-bottom: 50;
+	margin-bottom: 10px;
 }
 
 .row {
   width: 100%;
 }
 
-#menuOption1{
+h3{
 	text-align: center;
-	background-color: magenta;
+	position: relative;
 	border: 1px solid black;
 	padding: 5px;
+	width: 33.33%;
+	left: 66.67%;
+}
+#menuOption1{
+	background-color: #d59898;
 }
 #menuOption2{
-	text-align: center;
-	background-color: red;
-	border: 1px solid black;
-	padding: 5px;
+	background-color: #c14543;
+	color:white;
+
 }
 #menuOption3{
-	text-align: center;
-	background-color: brown;
-	border: 1px solid black;
-	padding: 5px;
+	background-color: #e5d197;
 }
 
 .box{
-	background-color: yellow;
+	background-color: #999999;
 	border: 1px solid black;
 	margin: 10px;
 }
